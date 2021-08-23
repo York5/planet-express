@@ -1,0 +1,31 @@
+.cat-form {
+  display: flex;
+  justify-content: center;
+
+  .payload-input {
+    outline: 0 !important;
+  }
+  .custom-select {
+    padding-right: 70px !important;
+    background-color: transparent;
+    border: 1px solid rgb(243, 172, 80);
+    border-radius: 0;
+    color: #fff;
+
+    option {
+      background-color: #13101a;
+      border: 1px solid rgb(243, 172, 80) !important;
+      margin: 30px 0 !important;
+    }
+  }
+  .trans-input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgb(243, 172, 80);
+    border-radius: 0;
+  }
+  .filter-btn {
+    border-radius: 0;
+    padding: 0 40px;
+  }
+}

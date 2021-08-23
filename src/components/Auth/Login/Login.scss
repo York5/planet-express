@@ -77,3 +77,16 @@
 .errorMsg {
   color: #963d2d;
 }
+
+.home-log-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 200px;
+  width: auto;
+  transition: height 0.2s ease-in-out;
+
+  &:hover {
+    height: 203px;
+  }
+}
