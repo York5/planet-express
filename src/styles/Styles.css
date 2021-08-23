@@ -1,0 +1,42 @@
+@import url(/home/mikhail/projects/space-launch/src/components/Header/Header.css);
+@import url(/home/mikhail/projects/space-launch/src/components/HomeBanner/HomeBanner.css);
+@import url(/home/mikhail/projects/space-launch/src/components/Landing/LandingTopSellers/LandingTopSellers.css);
+@import url(/home/mikhail/projects/space-launch/src/components/Auth/Login/Login.css);
+@import url(/home/mikhail/projects/space-launch/src/components/Auth/Register/Register.css);
+@import url(/home/mikhail/projects/space-launch/src/components/Footer/Footer.css);
+@import url(/home/mikhail/projects/space-launch/src/components/Landing/LandingCargo/LandingCargo.css);
+@import url(/home/mikhail/projects/space-launch/src/components/Landing/LandingVideoBanner/LandingVideoBanner.css);
+@import url(/home/mikhail/projects/space-launch/src/components/Catalog/CatalogControls/CatalogControls.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@font-face {
+  font-family: "Alien Font";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Alien Font"), url("/src/assets/fonts/Sterilict.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Azonix"), url("/src/assets/fonts/Azonix.woff") format("woff");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #13101a;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Styles.css.map */

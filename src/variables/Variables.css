@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@font-face {
+  font-family: "Alien Font";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Alien Font"), url("/src/assets/fonts/Sterilict.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Azonix"), url("/src/assets/fonts/Azonix.woff") format("woff");
+}
+/*# sourceMappingURL=Variables.css.map */

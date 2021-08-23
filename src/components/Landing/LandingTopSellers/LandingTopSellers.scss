@@ -1,0 +1,41 @@
+// @import "../../variables/Variables.scss";
+
+.top-seller-header {
+  h3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+  }
+}
+
+.my-card {
+  height: 60vh;
+  width: 18rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  // align-content: space-between;
+  flex-direction: column;
+  color: #fff;
+  h4 {
+    margin-top: 15px;
+  }
+  p {
+    margin-bottom: 6px;
+    opacity: 0.6;
+  }
+
+  img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+}
+
+// .landing-body {
+//   background-color: #13101a;
+//   height: 1900px;
+//   box-shadow: 1px -93px 54px 48px rgba(0, 0, 0, 0.66);
+//   -webkit-box-shadow: 1px -93px 54px 48px rgba(0, 0, 0, 0.66);
+//   -moz-box-shadow: 1px -93px 54px 48px rgba(0, 0, 0, 0.66);
+// }

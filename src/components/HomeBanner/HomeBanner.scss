@@ -1,0 +1,29 @@
+@import "../../variables/Variables.scss";
+
+.home-banner {
+  background-image: url("../../assets/image/611e5c5af40a1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.home-banner-inner {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  h1 {
+    font-size: 60px !important;
+    font-family: $azonixFont;
+  }
+}
