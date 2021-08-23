@@ -1,0 +1,27 @@
+@import "../components/Header/Header.css";
+@import "../components/HomeBanner/HomeBanner.css";
+@import "../components/Landing/LandingTopSellers/LandingTopSellers.css";
+@import "../components/Auth/Login/Login.css";
+@import "../components/Auth/Register/Register.css";
+@import "../components/Footer/Footer.css";
+@import "../components/Landing/LandingCargo/LandingCargo.css";
+@import "../components/Landing/LandingVideoBanner/LandingVideoBanner.css";
+@import "../components/Catalog/CatalogControls/CatalogControls.css";
+
+@import "../variables/Variables.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $robotoFont;
+}
+
+body {
+  background-color: #13101a;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
