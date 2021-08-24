@@ -1,0 +1,22 @@
+.search-form-block {
+  background-color: transparent;
+  height: 20px;
+  margin-bottom: 40px;
+  .search-form {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+  .search-input {
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid rgb(243, 172, 80);
+    outline: 0 !important;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .search-btn {
+    border-radius: 0;
+  }
+}

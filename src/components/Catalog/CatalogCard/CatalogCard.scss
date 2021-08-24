@@ -1,0 +1,36 @@
+.rocket-card {
+  margin-top: 25vh;
+  height: 60vh;
+  width: 15rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  // align-content: space-between;
+  flex-direction: column;
+  color: #fff;
+  white-space: normal;
+  text-align: center;
+  opacity: 0.8;
+  &:hover {
+    transform: translate3D(0, -1px, 0) scale(1.03);
+    opacity: 1;
+  }
+  a {
+    height: inherit;
+  }
+  h5 {
+    margin-top: 15px;
+    font-weight: 400;
+  }
+  p {
+    margin-bottom: 6px;
+    opacity: 0.6;
+    font-size: 15px;
+  }
+
+  img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+}

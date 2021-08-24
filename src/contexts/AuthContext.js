@@ -20,8 +20,6 @@ const AuthContextProvider = ({ children }) => {
   const [hasAccount, setHasAccount] = useState(false);
   //   const [roleError, setRoleError] = useState("");
 
-  console.log(user);
-  console.log(role);
   const clearInputs = () => {
     setEmail("");
     setPassword("");
@@ -88,7 +86,6 @@ const AuthContextProvider = ({ children }) => {
 
   const authListener = () => {
     fire.auth().onAuthStateChanged((userData) => {
-      console.log(userData);
       if (userData) {
         console.log("if worked");
         clearInputs();

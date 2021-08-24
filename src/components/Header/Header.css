@@ -17,6 +17,7 @@
 .custom-navbar {
   background-color: transparent !important;
   width: 100vw;
+  margin-bottom: -30px;
 }
 
 .custom-navbar .nav-list {
@@ -30,6 +31,23 @@
   margin: 0 30px;
   font-family: "Azonix";
   font-weight: 400;
+}
+
+.custom-navbar .nav-list .navbar-logo:hover {
+  color: #f3ac50;
+}
+
+.custom-navbar .search-dropdown:hover {
+  background-color: transparent !important;
+}
+
+.custom-navbar .dropdown-menu {
+  background-color: transparent !important;
+  outline: none;
+}
+
+.custom-navbar .dropdown-menu:hover {
+  background-color: transparent !important;
 }
 
 .custom-navbar .auth-block {

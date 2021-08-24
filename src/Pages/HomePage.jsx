@@ -10,12 +10,12 @@ import MainLayout from "../Layouts/MainLayout";
 const HomePage = () => {
   return (
     <MainLayout style={{ backgoundColor: "#13101a " }}>
-      <Header />
+      {/* <Header /> */}
       <HomeBanner />
       <LandingTopSellers />
       {/* <LandingVideoBanner /> */}
       <LandingCargo />
-      <Footer />
+      {/* <Footer /> */}
     </MainLayout>
   );
 };

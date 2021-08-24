@@ -1,9 +1,17 @@
 import React, { useCallback, useEffect, useState, useRef } from "react";
 import PropTypes from "prop-types";
 
-const MultiRangeSlider = ({ min, max, onChange }) => {
-  const [minVal, setMinVal] = useState(min);
-  const [maxVal, setMaxVal] = useState(max);
+const MultiRangeSlider = ({
+  minVal,
+  maxVal,
+  setMinVal,
+  setMaxVal,
+  min,
+  max,
+  onChange,
+}) => {
+  // const [minVal, setMinVal] = useState(min);
+  // const [maxVal, setMaxVal] = useState(max);
   const minValRef = useRef(min);
   const maxValRef = useRef(max);
   const range = useRef(null);
@@ -35,13 +43,13 @@ const MultiRangeSlider = ({ min, max, onChange }) => {
     }
   }, [maxVal, getPercent]);
 
-  // Get min and max values when their state changes
   useEffect(() => {
-    onChange({ min: minVal, max: maxVal });
-  }, [minVal, maxVal, onChange]);
+    onChange();
+  }, [minVal, maxVal]);
 
   return (
-    <div className="container">
+    <div className="form-container">
+      <p>$/kg</p>
       <input
         type="range"
         min={min}
