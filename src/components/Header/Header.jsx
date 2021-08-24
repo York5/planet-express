@@ -1,8 +1,17 @@
 import React from "react";
 import { Fragment } from "react";
-import { Container, Nav, Navbar, Button } from "react-bootstrap";
+import {
+  Container,
+  Nav,
+  Navbar,
+  Button,
+  Form,
+  FormControl,
+  NavDropdown,
+} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
+import { useRockets } from "../../contexts/RocketContext";
 
 const Header = () => {
   const { handleLogout, user } = useAuth();
@@ -22,11 +31,15 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto nav-list">
-              <Nav.Link href="#a" className="nav-item">
-                <Link to="/catalog">Rockets</Link>
-              </Nav.Link>
               <Nav.Link href="#b" className="nav-item">
-                Features
+                <Link className="nav-link" to="/">
+                  Home
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="#a" className="nav-item">
+                <Link className="nav-link" to="/catalog">
+                  Rockets
+                </Link>
               </Nav.Link>
               <Navbar.Brand href="#c" className="nav-item mx-0">
                 <Link to="/" className="navbar-logo">

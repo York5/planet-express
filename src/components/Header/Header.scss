@@ -5,6 +5,7 @@
   // position: absolute;
   // z-index: 999;
   width: 100vw;
+  margin-bottom: -30px;
 
   .nav-list {
     align-items: center;
@@ -13,11 +14,22 @@
       margin: 0 30px;
       font-family: $azonixFont;
       font-weight: 400;
+      &:hover {
+        color: rgb(243, 172, 80);
+      }
     }
-    // .nav-item {
-    //   &:nth-child(3n) {
-    //   }
-    // }
+  }
+  .search-dropdown {
+    &:hover {
+      background-color: transparent !important;
+    }
+  }
+  .dropdown-menu {
+    background-color: transparent !important;
+    outline: none;
+    &:hover {
+      background-color: transparent !important;
+    }
   }
   .auth-block {
     position: absolute;
