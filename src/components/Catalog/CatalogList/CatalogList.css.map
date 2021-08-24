@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EAEf,eAAe,EAAE,aAAa;CAC/B",
+    "sources": [
+        "CatalogList.scss"
+    ],
+    "names": [],
+    "file": "CatalogList.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,gBAAgB,EAAE,2CAA2C;EAC7D,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,EAAE;EACX,UAAU,EAAE,mDAA8D;CAC3E",
+    "sources": [
+        "CatalogBanner.scss"
+    ],
+    "names": [],
+    "file": "CatalogBanner.css"
+}

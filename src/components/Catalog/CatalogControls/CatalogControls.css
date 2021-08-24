@@ -1,1 +1,41 @@
-/* No CSS *//*# sourceMappingURL=CatalogControls.css.map */
+.cat-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: -110px;
+}
+
+.cat-form .payload-input {
+  outline: 0 !important;
+}
+
+.cat-form .custom-select {
+  padding-right: 70px !important;
+  background-color: transparent;
+  border: 1px solid #f3ac50;
+  border-radius: 0;
+  color: #fff;
+  outline: 0 !important;
+}
+
+.cat-form .custom-select option {
+  background-color: #13101a;
+  border: 1px solid #f3ac50 !important;
+  margin: 30px 0 !important;
+}
+
+.cat-form .trans-input {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #f3ac50;
+  border-radius: 0;
+}
+
+.cat-form .filter-btn {
+  border-radius: 0;
+  padding: 0 40px;
+}
+/*# sourceMappingURL=CatalogControls.css.map */
