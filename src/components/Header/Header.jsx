@@ -31,25 +31,30 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto nav-list">
-              <Nav.Link href="#b" className="nav-item">
-                <Link className="nav-link" to="/">
-                  Home
-                </Link>
-              </Nav.Link>
-              <Nav.Link href="#a" className="nav-item">
-                <Link className="nav-link" to="/catalog">
-                  Rockets
-                </Link>
-              </Nav.Link>
+              <Link className="nav-item nav-link" to="/">
+                Home
+              </Link>
+              <Link className="nav-item nav-link" to="/catalog">
+                Rockets
+              </Link>
               <Navbar.Brand href="#c" className="nav-item mx-0">
                 <Link to="/" className="navbar-logo">
                   Planet Express
                 </Link>
               </Navbar.Brand>
-              <Nav.Link href="#d" className="nav-item">
-                Destinations
+
+              {user.displayName === "Provider" ? (
+                <Link to="/addrocket" className="nav-item nav-link">
+                  Add Rocket
+                </Link>
+              ) : (
+                <Nav.Link href="#d" className="nav-item">
+                  Booking
+                </Nav.Link>
+              )}
+              <Nav.Link href="#ggg" className="nav-item">
+                About
               </Nav.Link>
-              <Nav.Link href="#ggg">About</Nav.Link>
             </Nav>
 
             <div className="auth-block">
