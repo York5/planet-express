@@ -1,0 +1,92 @@
+.add-form-wrapper {
+  text-align: center;
+}
+
+.add-form-wrapper h3 {
+  color: white;
+  margin: 50px 0;
+  font-weight: 300;
+}
+
+.add-form-wrapper .add-form-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 6vw 60px 6vw;
+}
+
+.add-form-wrapper .add-form-inner .add-form-info-block {
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  text-align: center;
+  font-size: 1.3vw;
+  color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 1.95px 1.95px;
+          box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 1.95px 1.95px;
+  background: #2b113d;
+  background: linear-gradient(241deg, #2b113d 0%, #e87b14 61%, #f3cd99 100%);
+  border-radius: 20px;
+}
+
+.add-form-wrapper .add-form-inner .add-form-info-block .form-btn {
+  color: white !important;
+  background-color: #3b2546 !important;
+  margin-top: 15px;
+  outline: none;
+  border-color: #3b2546 !important;
+  width: 10vw;
+}
+
+.add-form-wrapper .add-form-inner .add-form-info-block .input-field {
+  margin: 5px 0;
+  width: 30vw;
+  font-size: 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  outline-color: white;
+}
+
+.add-form-wrapper .add-form-inner .add-form-info-block .separator {
+  margin: 10px 10px 10px 10px;
+  height: 1px;
+}
+
+.add-form-wrapper .add-form-inner .add-form-info-block .rocket-name h4 {
+  margin: 2vh 0 6vh 0;
+}
+
+.add-form-wrapper .add-form-inner .add-form-info-block .item-lable {
+  overflow: hidden;
+  text-align: center;
+  opacity: 0.6;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.add-form-wrapper .add-form-inner .add-form-info-block .item-lable:before, .add-form-wrapper .add-form-inner .add-form-info-block .item-lable:after {
+  background-color: #fff;
+  opacity: 0.4;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.add-form-wrapper .add-form-inner .add-form-info-block .item-lable:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.add-form-wrapper .add-form-inner .add-form-info-block .item-lable:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+/*# sourceMappingURL=AddRocket.css.map */

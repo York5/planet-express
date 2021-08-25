@@ -1,1 +1,125 @@
-/* No CSS *//*# sourceMappingURL=RocketDetail.css.map */
+.detail-wrapper .detail-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 60px 6vw 60px 6vw;
+}
+
+.detail-wrapper .detail-inner .detail-info-block {
+  width: 50%;
+  height: 100vh;
+  padding: 0 40px 0 40px;
+  text-align: center;
+  font-size: 1.2vw;
+  color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 1.95px 1.95px;
+          box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 1.95px 1.95px;
+  background: #2b113d;
+  background: linear-gradient(241deg, #2b113d 0%, #e87b14 61%, #f09e2b 100%);
+  border-radius: 20px 0px 0px 20px;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .separator {
+  margin: 10px 10px 10px 10px;
+  height: 1px;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .rocket-name h4 {
+  margin: 2vh 0 6vh 0;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .item-lable {
+  overflow: hidden;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .item-lable:before, .detail-wrapper .detail-inner .detail-info-block .item-lable:after {
+  background-color: #fff;
+  opacity: 0.4;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .item-lable:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .item-lable:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2vh;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .actions .actions-item:hover {
+  color: #2b2a2a;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .purchase-btn {
+  color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 1.95px 1.95px;
+          box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 1.95px 1.95px;
+  background: #3c1d49;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3c1d49), to(#e28b07));
+  background: linear-gradient(0deg, #3c1d49 0%, #e28b07 100%);
+  outline: none;
+  border-color: #3b2546 !important;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 18vw;
+  opacity: 0.8;
+}
+
+.detail-wrapper .detail-inner .detail-info-block .purchase-btn:hover {
+  background-color: #5c3f6b !important;
+}
+
+.detail-wrapper .detail-inner .detail-img-block {
+  background-image: url("/src/assets/image/catalog-bg.jpg");
+  -webkit-box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 1.95px 1.95px;
+          box-shadow: rgba(0, 0, 0, 0.342) 2px 2px 1.95px 1.95px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 20px 20px 0px;
+  width: 50%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.detail-wrapper .detail-inner .detail-img-block .rocket-img {
+  height: 80vh;
+  width: auto;
+}
+
+.detail-wrapper .detail-inner .detail-img-block .rocket-img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=RocketDetail.css.map */

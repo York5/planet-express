@@ -9,7 +9,7 @@ import MainLayout from "../Layouts/MainLayout";
 
 const CatalogPage = () => {
   return (
-    <MainLayout style={{ backgoundColor: "#13101a " }}>
+    <MainLayout>
       <Search />
       <CatalogBanner />
       <CatalogControls />

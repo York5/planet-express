@@ -57,9 +57,8 @@ const CatalogControls = () => {
       setPayload(e.target.value);
       getRocketsData();
     } else {
-      search.set("q", e.target.value);
-      setPayload(e.target.value);
-      getRocketsData();
+      alert("Chose an Orbit first!");
+      return;
     }
 
     history.push(`${history.location.pathname}?${search.toString()}`);
@@ -99,13 +98,19 @@ const CatalogControls = () => {
     console.log("Hello");
   };
 
-  // function click() {
-  //   const search = new URLSearchParams(history.location.search);
-  //   search.set(orbit, true);
-  //   search.set("q", payload);
-  //   history.push(`${history.location.pathname}?${search.toString()}`);
-  //   getRocketsData();
-  // }
+  const resetFilters = () => {
+    const search = new URLSearchParams(history.location.search);
+    search.delete("payloadLEO_gte");
+    search.delete("payloadGTO_gte");
+    search.delete("LEO");
+    search.delete("GTO");
+    search.delete("pricePerKg_gte");
+    search.delete("pricePerKg_lte");
+
+    history.push(`${history.location.pathname}?${search.toString()}`);
+    getRocketsData();
+    // setPrice(getPrice());
+  };
 
   return (
     <Fragment>
@@ -138,8 +143,12 @@ const CatalogControls = () => {
                   onChange={handleChangePrice}
                 />
               </div>
-              <Button variant="outline-warning" className="filter-btn">
-                Filter
+              <Button
+                variant="outline-warning"
+                className="filter-btn"
+                onClick={resetFilters}
+              >
+                Reset
               </Button>{" "}
             </Form.Group>
           </form>
