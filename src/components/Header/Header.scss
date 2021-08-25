@@ -9,6 +9,9 @@
 
   .nav-list {
     align-items: center;
+    .nav-item {
+      margin: 0 10px;
+    }
     .navbar-logo {
       font-size: 30px;
       margin: 0 30px;
@@ -40,5 +43,6 @@
   .login-btn {
     background-color: transparent;
     border: none;
+    color: rgb(243, 172, 80);
   }
 }

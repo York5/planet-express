@@ -78,7 +78,6 @@
       "image": "https://i.ibb.co/cTTh9b7/atlas5.png",
       "id": 5
     },
-
     {
       "rocket": "Electron",
       "description": "Electron is a two-stage, partially recoverable orbital launch vehicle developed by Rocket Lab, an American aerospace company with a wholly owned New Zealand subsidiary. Electron was developed to service the commercial small satellite launch market",
@@ -109,8 +108,6 @@
       "rocket": "Firefly Alpha",
       "description": "Firefly Alpha is a two-stage orbital expendable launch vehicle developed by the American aerospace company Firefly Aerospace to cover the commercial small satellite launch market. Alpha is intended to provide launch options for both full vehicle and ride share customers. ",
       "company": "Firefly Aerospace",
-      "LEO": true,
-      "GTO": true,
       "payloadLEO": 630,
       "payloadGTO": 0,
       "pricePerKg": 23800,
@@ -208,6 +205,19 @@
       "pricePerLaunch": 60000000,
       "image": "https://i.ibb.co/ygTVXfg/H3-Rocket.png",
       "id": 15
+    },
+    {
+      "rocket": "",
+      "description": "",
+      "company": "",
+      "LEO": true,
+      "GTO": true,
+      "payloadLEO": 0,
+      "payloadGTO": 0,
+      "pricePerKg": 0,
+      "pricePerLaunch": 0,
+      "image": "",
+      "id": 18
     }
   ]
 }

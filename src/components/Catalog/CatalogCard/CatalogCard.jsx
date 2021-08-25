@@ -5,7 +5,7 @@ const CatalogCard = ({ item }) => {
   return (
     <Fragment>
       <div className="rocket-card">
-        <Link to="/">
+        <Link to={`/details/${item.id}`}>
           <img src={item.image} alt="" />
         </Link>
         <div className="card-info">

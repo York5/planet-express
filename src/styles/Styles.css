@@ -13,6 +13,8 @@
 @import url(/home/mikhail/projects/space-launch/src/components/Catalog/CatalogBanner/CatalogBanner.css);
 @import url(/home/mikhail/projects/space-launch/src/components/Search/Search.css);
 @import url(/home/mikhail/projects/space-launch/src/components/RocketDetail/RocketDetail.css);
+@import url(/home/mikhail/projects/space-launch/src/components/AddRocket/AddRocket.css);
+@import url(/home/mikhail/projects/space-launch/src/components/EditRocket/EditRocket.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 @font-face {

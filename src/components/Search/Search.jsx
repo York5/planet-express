@@ -15,7 +15,7 @@ const Search = () => {
   return (
     <Fragment>
       <Container>
-        <div className="search-form-block mt-4">
+        <div className="search-form-block mt-5">
           <Form.Group>
             <form className="search-form d-flex">
               <input

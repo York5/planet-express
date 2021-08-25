@@ -50,28 +50,29 @@ const RocketContextProvider = ({ children }) => {
     });
   };
 
-  //   const getRocketDetails = async (id) => {
-  //     const { data } = await axios(`${JSON_API_ROCKETS}/${id}`);
-  //     dispatch({
-  //       type: ACTIONS.GET_ROCKET_DETAILS,
-  //       payload: data,
-  //     });
-  //   };
+  const getRocketDetails = async (id) => {
+    const { data } = await axios(`${JSON_API_ROCKETS}/${id}`);
+    dispatch({
+      type: ACTIONS.GET_ROCKET_DETAILS,
+      payload: data,
+    });
+  };
 
-  //   const addRocket = async (rocket) => {
-  //     const data = await axios.post(JSON_API_ROCKETS, rocket);
-  //     getRocketsData();
-  //   };
+  const addRocket = async (rocket) => {
+    const data = await axios.post(JSON_API_ROCKETS, rocket);
+    getRocketsData();
+  };
 
-  //   const deleteRocket = async (id) => {
-  //     const data = await axios.delete(`${JSON_API_ROCKETS}/${id}`);
-  //     getRocketsData();
-  //   };
+  const deleteRocket = async (id) => {
+    const data = await axios.delete(`${JSON_API_ROCKETS}/${id}`);
+    await history.push("/catalog");
+    getRocketsData();
+  };
 
-  //   const saveEditedRocket = async (id, editedRocket) => {
-  //     const data = await axios.patch(`${JSON_API_ROCKETS}/${id}`, editedRocket);
-  //     history.push("/");
-  //   };
+  const saveEditedRocket = async (id, editedRocket) => {
+    const data = await axios.patch(`${JSON_API_ROCKETS}/${id}`, editedRocket);
+    history.push(`/details/${id}`);
+  };
 
   //   const getCart = () => {
   //     let cart = JSON.parse(localStorage.getItem("cart"));
@@ -148,14 +149,14 @@ const RocketContextProvider = ({ children }) => {
   const values = {
     history,
     rocketsData: state.rocketsData,
-    // rocketDetails: state.rocketDetails,
+    rocketDetails: state.rocketDetails,
     cart: state.cart,
     pages: state.pages,
     getRocketsData,
-    // getRocketDetails,
-    // deleteRocket,
-    // addRocket,
-    // saveEditedRocket,
+    getRocketDetails,
+    deleteRocket,
+    addRocket,
+    saveEditedRocket,
     // getCart,
     // addRocketToCart,
     // changeRocketCount,

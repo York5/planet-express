@@ -26,6 +26,10 @@
           align-items: center;
 }
 
+.custom-navbar .nav-list .nav-item {
+  margin: 0 10px;
+}
+
 .custom-navbar .nav-list .navbar-logo {
   font-size: 30px;
   margin: 0 30px;
@@ -60,5 +64,6 @@
 .custom-navbar .login-btn {
   background-color: transparent;
   border: none;
+  color: #f3ac50;
 }
 /*# sourceMappingURL=Header.css.map */
